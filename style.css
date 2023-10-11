@@ -1,0 +1,81 @@
+/* GENERAL */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body,
+  h1,
+  h2 {
+    margin: 0;
+  }
+  
+  body {
+    line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  /* NAVBAR */
+  
+  nav {
+    background-color: #a306b6;
+    color: white;
+    padding: 1rem 0 0.5rem 0.5rem;
+  }
+  
+  nav h1 {
+    color: white;
+    font-size: 2rem;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+    padding-left: 0;
+  }
+  /* HEADER */
+  
+  header {
+    min-height: 250px;
+    background-image: url("https://fastly.picsum.photos/id/770/1920/600.jpg?hmac=_imQFZNm4noI6590_H0vwP5wtZ_hzANfpx1XWUTyowE");
+    background-size: cover;
+  }
+  
+  header h1 {
+    color: #3d3c3c;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 2rem;
+  }
+  
+  /* SECTION */
+  
+  main {
+    background-color: #f2f2f2;
+  }
+  
+  main section {
+    max-width: 65ch;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  main section:last-child article {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 6px 11px 0px #bebebe;
+    padding: 1.5rem 1rem;
+    display: inline-block;
+    width: 45%;
+    margin: 5px;
+  }
+  
+  /* FOOTER */
+  
+  footer {
+    background-color: #a306b6;
+    color: white;
+    padding: 1rem 0 1rem 0.5rem;
+  }
